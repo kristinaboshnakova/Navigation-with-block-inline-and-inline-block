@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    justify-content: space-between; /* За да разположите елементите в ляво и дясно */
+    align-items: center; /* За центриране на елементите по вертикала */
+    padding: 10px 20px; /* Добавяне на вътрешен паддинг за по-добър външен вид */
+    border-bottom: 1px solid black; /* Добавяне на долна граница за разделение */
+}
+
+h1 {
+    margin: 0; /* Изчистване на марджините на заглавието */
+}
+
+nav ul {
+    list-style-type: none; /* Премахване на маркировката на списъка */
+    padding: 0; /* Изчистване на вътрешния паддинг на списъка */
+}
+
+nav ul li {
+    display: inline; /* Съдържанието на списъка да бъде в един ред */
+    margin-right: 10px; /* Добавяне на малко между пръстени */
+}
+nav ul li a{
+    text-decoration: none;
+    color:green;
+}
+nav ul li:last-child {
+    margin-right: 0; /* Изчистване на марджинът на последния елемент, за да няма разлика в между пръстени */
+}
+
+
+p{
+    display: inline;
+}
+.img{
+    float: right;
+    padding: 1px;
+    margin: 5px;
+}
+.text{
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+
+}
+.text h1{
+    padding: 10px;
+}
+
+.sidebar{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+}
+
+aside li{
+    color:green;
+}
+
+.text1{
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+}
+.text1 h1{
+    padding: 10px;
+}
+.more{
+    display: inline-block;
+    width: 40%;
+    border-right: 1px solid gray;
+    padding: 10px;
+
+}
+blockquote{
+    display:inline-block;
+    width: 40%;
+    font-style: italic;
+    color: gray;
+    
+}
+.more-info{
+    display: inline-block;
+}
+.img1{
+    float: left;
+    padding: 1px;
+    margin: 5px;
+}
+.text2 p{
+ display: inline;
+}
+.text2{
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.text2 h2{
+    padding: 10px;
+}
